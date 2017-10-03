@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion.Calculadora">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Grid.ColumnSpan="2"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+
+
+
+            </Grid.RowDefinitions>
+            <Entry Grid.Column="1" Grid.Row="1" x:Name="texto" Grid.ColumnSpan="2" Text="" IsEnabled="False"></Entry>
+
+            <Button Grid.Column="3" Grid.Row="2" x:Name="clr" Text="Borrar" Clicked="clr_Clicked"/>
+            <Button Grid.Column="0" Grid.Row="3" x:Name="siete" Text="7" Clicked="siete_Clicked"/>
+            <Button Grid.Column="1" Grid.Row="3" x:Name="ocho" Text="8" Clicked="ocho_Clicked"/>
+            <Button Grid.Column="2" Grid.Row="3" x:Name="nueve" Text="9" Clicked="nueve_Clicked"/>
+            <Button Grid.Column="3" Grid.Row="3" x:Name="entre" Text="÷" Clicked="entre_Clicked"/>
+            <Button Grid.Column="0" Grid.Row="4" x:Name="cuatro" Text="4" Clicked="cuatro_Clicked"/>
+            <Button Grid.Column="1" Grid.Row="4" x:Name="cinco" Text="5" Clicked="cinco_Clicked"/>
+            <Button Grid.Column="2" Grid.Row="4" x:Name="seis" Text="6" Clicked="seis_Clicked"/>
+            <Button Grid.Column="3" Grid.Row="4" x:Name="por" Text="x" Clicked="por_Clicked"/>
+            <Button Grid.Column="0" Grid.Row="5" x:Name="uno" Text="1" Clicked="uno_Clicked"/>
+            <Button Grid.Column="1" Grid.Row="5" x:Name="dos" Text="2" Clicked="dos_Clicked"/>
+            <Button Grid.Column="2" Grid.Row="5" x:Name="tres" Text="3" Clicked="tres_Clicked"/>
+            <Button Grid.Column="3" Grid.Row="5" x:Name="menos" Text="-" Clicked="menos_Clicked"/>
+            <Button Grid.Column="0" Grid.Row="6" x:Name="punto" Text="." Clicked="punto_Clicked" />
+            <Button Grid.Column="1" Grid.Row="6" x:Name="cero" Text="0" Clicked="cero_Clicked"/>
+            <Button Grid.Column="2" Grid.Row="6" x:Name="igual" Text="=" Clicked="igual_Clicked"/>
+            <Button Grid.Column="3" Grid.Row="6" x:Name="mas" Text="+" Clicked="mas_Clicked"/>
+            <Button Grid.Column="0" Grid.Row="8" x:Name="regresar" Text="Regresar" Clicked="regresar_Clicked" />
+            <Button Grid.Column="3" Grid.Row="8" x:Name="siguiente" Text="Siguiente" Clicked="siguiente_Clicked" />
+
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Navegacion"
+             x:Class="Navegacion.MainPage">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="NAME: VELARDE GARDUÑO ALEJANDRA MARIA" />
+        <Label Text="SCHOOL-ID: 13090302" />
+        <Button Text="Regresar" x:Name="Regresar" HorizontalOptions="Start" VerticalOptions="End" Clicked="Regresar_Clicked"/>
+        <Button Text="Siguiente" x:Name="siguente" HorizontalOptions="End" Clicked="siguente_Clicked" />
+    </StackLayout>
+
+</ContentPage>
